@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b95ca3249d498044a91e9028f855f25, type: 3}
+  m_Name: Field Level 1
+  m_EditorClassIdentifier: 
+  _levelName: Field Level 1
+  _characterVisual: {fileID: 455537512243006468, guid: 2212d321ab0d8024a94eb9de62b6f8d5, type: 3}
+  _isAdressable: 0
+  _sceneName: Field_Level_1
