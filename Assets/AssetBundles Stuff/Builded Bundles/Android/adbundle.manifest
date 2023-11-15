@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 1682913979
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bc09ac506e10aa16bfde8b2960c858f2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 08ae72589e8a18b9fc188dbc16b918ad
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e6385110ffe436804f6ab91377f1cfd0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4d4300f44f7b16409838fa3ab4c9026, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundles Stuff/AB Prefabs/Ad Banner Sphere.prefab
+- Assets/AssetBundles Stuff/AB Textures/Star.png
+- Assets/AssetBundles Stuff/AB Textures/Triangle.png
+- Assets/AssetBundles Stuff/AB Materials/Ad_Star.mat
+- Assets/AssetBundles Stuff/AB Prefabs/Ad Banner Triangle.prefab
+- Assets/AssetBundles Stuff/AB Meshes/Border Cylinder.obj
+- Assets/AssetBundles Stuff/AB Textures/Circle.png
+- Assets/AssetBundles Stuff/AB Prefabs/Ad Banner Cube.prefab
+- Assets/AssetBundles Stuff/AB Meshes/Prism.obj
+- Assets/AssetBundles Stuff/AB Materials/Ad_Circle.mat
+- Assets/AssetBundles Stuff/AB Materials/Ad_Triangle.mat
+- Assets/AssetBundles Stuff/AB Materials/Metal.mat
+- Assets/AssetBundles Stuff/AB Materials/Banner Content Temp.mat
+Dependencies: []
