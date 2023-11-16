@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace PesPatron.Bundles
 {
-    public class Banner : MonoBehaviour
+    public class LevelBanner : MonoBehaviour
     {
         [SerializeField] private Renderer _content;
 

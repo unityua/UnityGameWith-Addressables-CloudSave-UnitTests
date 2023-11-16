@@ -1,3 +1,4 @@
+using PesPatron.Bundles;
 using PesPatron.CameraStuff;
 using PesPatron.Core.SaveLoad;
 using PesPatron.PlayerStuff;
@@ -12,6 +13,7 @@ namespace PesPatron.Core
         [SerializeField] private CameraFollow _cameraFollow;
         [SerializeField] private AnimalsCatchTarget _animalsCatchTarget;
         [SerializeField] private GameTimer _gameTimer;
+        [SerializeField] private LevelBannerCreator _levelBannerCreator;
         [Space]
         [SerializeField] private MainGameUI _mainGameUI;
         [SerializeField] private Joystick _inputJoystick;
@@ -20,6 +22,7 @@ namespace PesPatron.Core
         private ISceneChanger _sceneChanger;
         private LevelDataProvider _levelDataProvider;
         private ISaveLoadSystem _saveLoadSystem;
+        private IBundlesLoader _bundlesLoader;
 
         private void Awake()
         {
@@ -31,6 +34,7 @@ namespace PesPatron.Core
 
         private void GetServices()
         {
+            _bundlesLoader = ProjectServices.GetService<IBundlesLoader>();
             _levelDataProvider = ProjectServices.GetService<LevelDataProvider>();
             _sceneChanger = ProjectServices.GetService<ISceneChanger>();
             _saveLoadSystem = ProjectServices.GetService<ISaveLoadSystem>();
@@ -38,12 +42,14 @@ namespace PesPatron.Core
 
         private void ConstructItems()
         {
+            _levelBannerCreator.Construct(_bundlesLoader);
             _playerJoystickInput.Construct(_cameraFollow.MainCamera.transform, _inputJoystick, _player.Movement);
             _mainGameUI.Construct(_sceneChanger);
         }
 
         private void InitializeItems()
         {
+            _levelBannerCreator.Initialize();
             _animalsCatchTarget.Initialize();
             _player.Initialize();
             _playerJoystickInput.Initialize();

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a81cf6fddd20040bb9ba498d574fca, type: 3}
+  m_Name: BundleAdContainer
+  m_EditorClassIdentifier: 
+  _bannerPrefabs:
+  - {fileID: 2191854413879347238, guid: da7cea09d21136043b6b17c3dad05553, type: 3}
+  - {fileID: 674623669655596615, guid: 93b0a06afe026fa42b39e8f08e875198, type: 3}
+  - {fileID: 674623669655596615, guid: 849f76b94654cdb469276f472da8918f, type: 3}
+  _bannerMaterials:
+  - {fileID: 2100000, guid: 36bb04a9d0361314bb5adbf52e824ae9, type: 2}
+  - {fileID: 2100000, guid: 9138f9777f0655e47aeb6b0974664362, type: 2}
+  - {fileID: 2100000, guid: 470e6b0ef779eb04cadd81be50cb985a, type: 2}
