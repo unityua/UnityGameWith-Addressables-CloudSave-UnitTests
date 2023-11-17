@@ -1,3 +1,4 @@
+using PesPatron.Bundles;
 using PesPatron.Core.SaveLoad;
 using PesPatron.UI;
 using System;
@@ -15,22 +16,27 @@ namespace PesPatron.Core
         [SerializeField] private string _loginFailed = "Login Failed";
         [SerializeField] private string _signUpFailed = "Sign Up Failed!";
 
+        private IBundlesLoader _bundlesLoader;
         private ISaveLoadSystem _saveLoadSystem;
         private ISceneChanger _sceneChanger;
         private GlobalGameData _globalGameData;
+        private WebLevelsLoader _webLevelsLoader;
 
         private void Awake()
         {
+            _bundlesLoader = ProjectServices.GetService<IBundlesLoader>();
             _saveLoadSystem = ProjectServices.GetService<ISaveLoadSystem>();
             _sceneChanger = ProjectServices.GetService<ISceneChanger>();
             _globalGameData = ProjectServices.GetService<GlobalGameData>();
+            _webLevelsLoader = ProjectServices.GetService<WebLevelsLoader>();
         }
 
         private async void Start()
         {
             InitializeUI();
 
-            ProjectServices.GetService<WebLevelsLoader>().LoadLevels();
+            _webLevelsLoader.LoadLevels();
+            _bundlesLoader.LoadAllBundles();
 
             await TryDoServiceTask(UnityServices.InitializeAsync(), "Unity Services Initialization");
 

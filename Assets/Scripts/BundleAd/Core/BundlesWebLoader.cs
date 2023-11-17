@@ -4,11 +4,16 @@ using UnityEngine;
 
 namespace PesPatron.Bundles
 {
-    public class BundlesLoader : MonoBehaviour, IBundlesLoader
+    public class BundlesWebLoader : MonoBehaviour, IBundlesLoader
     {
         private Dictionary<string, AssetBundle> _loadedBundles = new Dictionary<string, AssetBundle>();
 
         public event Action<string, AssetBundle> LoadedAssetBundle;
+
+        public void LoadAllBundles()
+        {
+            //TODO: Load Bundles :)
+        }
 
         public bool BundleIsLoaded(string bundleName)
         {

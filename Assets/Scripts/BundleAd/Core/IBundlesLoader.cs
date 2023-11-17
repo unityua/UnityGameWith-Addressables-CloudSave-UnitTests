@@ -7,8 +7,10 @@ namespace PesPatron.Bundles
     {
         event Action<string, AssetBundle> LoadedAssetBundle;
 
-        public bool BundleIsLoaded(string bundleName);
+        void LoadAllBundles();
 
-        public AssetBundle GetLoadedBundle(string bundleName);
+        bool BundleIsLoaded(string bundleName);
+
+        AssetBundle GetLoadedBundle(string bundleName);
     }
 }
