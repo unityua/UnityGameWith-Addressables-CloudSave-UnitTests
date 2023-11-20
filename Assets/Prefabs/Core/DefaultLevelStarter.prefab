@@ -44,8 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 388d7fe8c0521834594770f704007e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bannerPoints: []
-  _adContainer: {fileID: 11400000, guid: fc930e977425320408ffe3c0b6b28e2c, type: 2}
+  _bannerPointsParent: {fileID: 0}
 --- !u!1 &355583425083415780
 GameObject:
   m_ObjectHideFlags: 0

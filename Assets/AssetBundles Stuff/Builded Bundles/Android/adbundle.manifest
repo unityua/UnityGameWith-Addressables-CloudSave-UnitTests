@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1682913979
+CRC: 2306986241
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bc09ac506e10aa16bfde8b2960c858f2
+    Hash: 3a475553f6d21f6019b8c921b16a69a8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 08ae72589e8a18b9fc188dbc16b918ad
+    Hash: fe5952d2428113963c959b960ca8a57a
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: e6385110ffe436804f6ab91377f1cfd0
+    Hash: dfd9d124a152b29bdbffe22a171d1e24
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -30,6 +30,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: f4d4300f44f7b16409838fa3ab4c9026, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 89a81cf6fddd20040bb9ba498d574fca, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
@@ -39,6 +41,7 @@ Assets:
 - Assets/AssetBundles Stuff/AB Textures/Triangle.png
 - Assets/AssetBundles Stuff/AB Materials/Ad_Star.mat
 - Assets/AssetBundles Stuff/AB Prefabs/Ad Banner Triangle.prefab
+- Assets/AssetBundles Stuff/AB Data/BundleAdContainer.asset
 - Assets/AssetBundles Stuff/AB Meshes/Border Cylinder.obj
 - Assets/AssetBundles Stuff/AB Textures/Circle.png
 - Assets/AssetBundles Stuff/AB Prefabs/Ad Banner Cube.prefab

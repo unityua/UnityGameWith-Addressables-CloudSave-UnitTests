@@ -42,14 +42,19 @@ namespace PesPatron.Core
 
         private void ConstructItems()
         {
-            _levelBannerCreator.Construct(_bundlesLoader);
+            if (_levelBannerCreator == null)
+                _levelBannerCreator = FindAnyObjectByType<LevelBannerCreator>();
+
+            if (_levelBannerCreator != null)
+                _levelBannerCreator.Construct(_bundlesLoader);
             _playerJoystickInput.Construct(_cameraFollow.MainCamera.transform, _inputJoystick, _player.Movement);
             _mainGameUI.Construct(_sceneChanger);
         }
 
         private void InitializeItems()
         {
-            _levelBannerCreator.Initialize();
+            if (_levelBannerCreator)
+                _levelBannerCreator.Initialize();
             _animalsCatchTarget.Initialize();
             _player.Initialize();
             _playerJoystickInput.Initialize();

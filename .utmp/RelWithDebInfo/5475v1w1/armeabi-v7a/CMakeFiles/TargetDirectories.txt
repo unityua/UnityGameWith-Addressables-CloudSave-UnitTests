@@ -1,0 +1,5 @@
+C:/Vova/Unity Projects/UnityGameWith-Addressables-CloudSave-UnitTests/.utmp/RelWithDebInfo/5475v1w1/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Vova/Unity Projects/UnityGameWith-Addressables-CloudSave-UnitTests/.utmp/RelWithDebInfo/5475v1w1/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Vova/Unity Projects/UnityGameWith-Addressables-CloudSave-UnitTests/.utmp/RelWithDebInfo/5475v1w1/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Vova/Unity Projects/UnityGameWith-Addressables-CloudSave-UnitTests/.utmp/RelWithDebInfo/5475v1w1/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Vova/Unity Projects/UnityGameWith-Addressables-CloudSave-UnitTests/.utmp/RelWithDebInfo/5475v1w1/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
